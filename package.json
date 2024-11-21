@@ -1,8 +1,8 @@
 {
-  "name": "test-page",
-  "private": true,
-  "version": "0.0.0",
+  "name": "luke-test-pkg",
+  "version": "0.1.1",
   "type": "module",
+  "files": ["./dist"],
   "scripts": {
     "build": "vite build"
   },
