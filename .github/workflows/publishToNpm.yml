@@ -16,8 +16,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18' # 指定 Node.js 版本
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: 'https://registry.npmjs.org/'
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+        
+      - name: Debug npm settings
+        run: npm config list
+        
       - name: Install dependencies
         run: npm install
 
