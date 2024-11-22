@@ -1,6 +1,6 @@
 {
-  "name": "luke-test-pkg",
-  "version": "0.1.1",
+  "name": "luke-test-pkg4",
+  "version": "0.1.0",
   "type": "module",
   "files": ["./dist"],
   "scripts": {
